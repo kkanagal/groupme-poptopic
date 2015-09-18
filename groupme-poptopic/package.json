@@ -1,5 +1,5 @@
 {
-  "name": "testProject",
+  "name": "groupme-poptopic",
   "private": true,
   "version": "0.0.0",
   "description": "a Sails application",
@@ -30,7 +30,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jd/testProject.git"
+    "url": "git://github.com/jd/groupme-poptopic.git"
   },
   "author": "jd",
   "license": ""
