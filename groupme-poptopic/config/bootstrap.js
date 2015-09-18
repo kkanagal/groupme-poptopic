@@ -13,5 +13,12 @@ module.exports.bootstrap = function(cb) {
 
   // It's very important to trigger this callback method when you are finished
   // with the bootstrap!  (otherwise your server will never lift, since it's waiting on the bootstrap)
+
+	var CronJob = require('cron').CronJob;
+	 	new CronJob('00 00 12 * * 1', function(){
+	 		 console.log("Test")
+	 		 // Run weekly AJAX requests to API
+	 		}, null, true, "America/Los_Angeles");
+
   cb();
 };
